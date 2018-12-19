@@ -1,0 +1,14 @@
+#include<iostream>
+using namespace std;
+#include<algorithm>
+int main()
+{
+	string s;
+	cin>>s;
+	std::string s1(s);
+	std::reverse(s1.begin(),s1.end());
+	if(s1==s)
+	cout<<"YES";
+	else
+	cout<<"NO";
+}

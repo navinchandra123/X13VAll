@@ -1,0 +1,10 @@
+import math
+n=int(input())
+x=int(math.sqrt(n))
+s=0
+while x>0:
+	i=x-1
+	s=s+int(n/x)-i
+	x=x-1
+print(int(s))
+	
