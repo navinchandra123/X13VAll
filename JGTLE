@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main(void) {
+	// your code here
+  long	int t,i=1;
+	long int a,b,c;
+	scanf("%ld",&t);
+	while(i<=t)
+ {
+ 	scanf("%ld%ld%ld",&a,&b,&c);
+ 	printf("Case %ld: %lld\n",i,a*(b*(b+1)/2)*(c*(c+1)/2));
+ 	i++;
+ }
+ return 0;
+}
